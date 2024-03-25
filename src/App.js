@@ -39,7 +39,7 @@ function App() {
             placeholder=""
             value={obj.firstname}
             onChange={handleFistNameChange}
-          ></input>
+          required></input>
         </div>
         <div>
           <label htmlFor="lastname">Last Name:</label>
@@ -48,7 +48,7 @@ function App() {
             placeholder=""
             value={obj.lastname}
             onChange={handleLastNameChange}
-          ></input>
+          required></input>
         </div>
         <button type="submit">Submit</button>
       </form>
